@@ -1,13 +1,38 @@
-# ARStack
-3步制作AR版堆方块游戏
+# AR Stack
 
-make ARStack game in 3 steps
+Simple AR block stacking game using the Apple Arkit 2.0 SDK.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to get started:
+
+```
+XCode 10.2.1
+```
+
+## Running the tests
+
+Application currently has no tests.
+
+## Built With
+
+* [Arkit 2.0](https://developer.apple.com/arkit/) - Apple SDK for building AR apps
+* [Swift] (https://developer.apple.com/swift/) - Apple's Swift programming language for programming Apple Apps
 
 
-过程讲解在[中文教程](https://juejin.im/post/5a32331f6fb9a0450671a50b)
+## Authors
 
-[Tutorial in Chinese](https://juejin.im/post/5a32331f6fb9a0450671a50b)
-
-![gif](https://github.com/XanderXu/ARStack/blob/master/1605417e98d57f47.gif)
+* **Sam Bowen-Hughes** - *Initial work* - [Medium](https://medium.com/@sambowenhughes) / [GitHub](https://github.com/sambowenhughes)
 
 
+## License
+
+This project is licensed under the AsyncT4 License
+
+## Acknowledgments
+
+* Big shout out to Yammy who is a genius, following his tutorials and using his existing code has helped develop this app.
