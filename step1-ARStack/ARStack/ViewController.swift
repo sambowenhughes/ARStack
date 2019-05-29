@@ -91,34 +91,7 @@ class ViewController: UIViewController {
 extension ViewController {
     
     private func updateSessionInfoLabel(for frame: ARFrame, trackingState: ARCamera.TrackingState) {
-        // 更新UI,反馈AR状态.
-        let message: String
-        print("status")
-        switch trackingState {
-        case .normal where frame.anchors.isEmpty:
-            // 未检测到平面
-            message = "移动设备来探测水平面."
-            
-        case .normal:
-            // 平面可见,跟踪正常,无需反馈
-            message = ""
-            
-        case .notAvailable:
-            message = "无法追踪."
-            
-        case .limited(.excessiveMotion):
-            message = "追踪受限-请缓慢移动设备."
-            
-        case .limited(.insufficientFeatures):
-            message = "追踪受限-将设备对准平面上的可见花纹区域,或改善光照条件."
-            
-        case .limited(.initializing):
-            message = "初始化AR中."
-            
-        }
-        print(message)
-        sessionInfoLabel.text = message
-        sessionInfoLabel.isHidden = message.isEmpty
+       
     }
     
     private func resetTracking() {
