@@ -9,7 +9,8 @@ These instructions will get you a copy of the project up and running on your loc
 ## Demo
 
 ![Demo](demo1.gif)
-![Demo](demo2.gif)
+
+<img src="demo1.gif" width="100" height="400" />
 
 ### Prerequisites
 
