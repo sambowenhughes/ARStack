@@ -8,9 +8,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Demo
 
-![Demo](demo1.gif)
+<div>
+    <img src="demo1.gif" width="300" height="500" />
+</div>
 
-<img src="demo1.gif" width="300" height="500" />
 
 ### Prerequisites
 
